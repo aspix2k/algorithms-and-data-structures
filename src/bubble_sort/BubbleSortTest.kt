@@ -1,4 +1,4 @@
-package bubble_sorting
+package bubble_sort
 
 import org.junit.Assert.*
 import org.junit.Test

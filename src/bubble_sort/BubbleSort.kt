@@ -1,4 +1,4 @@
-package bubble_sorting
+package bubble_sort
 
 fun sort(array: Array<Int>): Array<Int> {
     for (i in array.lastIndex - 1 downTo 0) {
