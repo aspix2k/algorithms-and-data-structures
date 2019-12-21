@@ -1,6 +1,7 @@
 package common_point
 
 import org.junit.Test
+import kotlin.random.Random
 import kotlin.test.assertSame
 
 class CommonPointTest {
@@ -143,5 +144,23 @@ class CommonPointTest {
                 )
             )
         )
+    }
+
+    @Test
+    fun test100() {
+        val random = Random(1)
+        val array = Array<Array<Int>>(100000) {
+            arrayOf(random.nextInt(-100, 100), random.nextInt(-100, 100))
+        }
+        findIntervalsWithCommonPoints1(array)
+    }
+
+    @Test
+    fun test101() {
+        val random = Random(1)
+        val array = Array<Array<Int>>(100000) {
+            arrayOf(random.nextInt(-100, 100), random.nextInt(-100, 100))
+        }
+        findIntervalsWithCommonPoints2(array)
     }
 }
