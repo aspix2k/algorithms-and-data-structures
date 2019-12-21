@@ -1,4 +1,4 @@
-package queue_minimal_time
+package minimal_waiting_time
 
 fun findMinimalWaitingTime(array: Array<Int>): Int = with(array) {
     var minTime = 0

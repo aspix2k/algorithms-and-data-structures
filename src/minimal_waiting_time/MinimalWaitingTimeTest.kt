@@ -1,4 +1,4 @@
-package queue_minimal_time
+package minimal_waiting_time
 
 import org.junit.Test
 import kotlin.test.assertEquals
