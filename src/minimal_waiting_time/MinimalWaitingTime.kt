@@ -1,5 +1,12 @@
 package minimal_waiting_time
 
+/*
+ * Description:
+ *
+ *
+ * Complexity: O(N*logN)
+*/
+
 fun findMinimalWaitingTime(array: Array<Int>): Int = with(array) {
     var minTime = 0
     sort()

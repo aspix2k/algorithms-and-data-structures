@@ -2,6 +2,13 @@ package brackets_validation
 
 import java.util.*
 
+/*
+ * Description:
+ *
+ *
+ * Complexity: O(N)
+*/
+
 private const val openChars = "[({"
 
 fun isStringValid(string: String): Boolean = with(Stack<Char>()) {
