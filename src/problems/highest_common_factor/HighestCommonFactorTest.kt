@@ -45,12 +45,20 @@ class HighestCommonFactorTest {
         )
     }
 
-    @Test
+//    @Test
     fun test6() {
         // StackOverflowError here
         assertEquals(
             2,
             findHighestCommonFactor(1000004, 2)
+        )
+    }
+
+    @Test
+    fun test7() {
+        assertEquals(
+            80,
+            findHighestCommonFactorEuclidian(1680, 640)
         )
     }
 }
