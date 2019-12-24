@@ -1,4 +1,4 @@
-package minimal_waiting_time
+package problems.minimal_waiting_time
 
 /*
  * Description:

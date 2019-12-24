@@ -1,4 +1,4 @@
-package common_point
+package problems.common_point
 
 import org.junit.Test
 import kotlin.random.Random

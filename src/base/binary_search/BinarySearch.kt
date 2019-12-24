@@ -1,4 +1,4 @@
-package binary_search
+package base.binary_search
 
 /*
  * Description:

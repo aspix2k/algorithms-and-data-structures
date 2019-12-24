@@ -1,4 +1,4 @@
-package brackets_validation
+package problems.brackets_validation
 
 import java.util.*
 

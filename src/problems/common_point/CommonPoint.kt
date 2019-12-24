@@ -1,6 +1,5 @@
-package common_point
+package problems.common_point
 
-import java.util.*
 import kotlin.Comparator
 
 /*
