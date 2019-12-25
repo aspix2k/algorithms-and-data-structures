@@ -12,11 +12,9 @@ package base.selection_sort
 
 fun selectionSort(array: Array<Int>): Array<Int> {
     for (i in 0 until array.lastIndex) {
-        var min = array[i]
         var minIndex = i
         for (j in (i + 1)..array.lastIndex) {
-            if (array[j] < min) {
-                min = array[j]
+            if (array[j] < array[minIndex]) {
                 minIndex = j
             }
         }
