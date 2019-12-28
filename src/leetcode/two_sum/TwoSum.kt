@@ -4,7 +4,7 @@ package leetcode.two_sum
  * Description:
  *
  *
- * Complexity: O(N²)
+ * Complexity: O(N)
 */
 
 fun twoSum(nums: IntArray, target: Int): IntArray = with(mutableMapOf<Int, Int>()) {

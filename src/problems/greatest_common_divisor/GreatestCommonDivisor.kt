@@ -1,4 +1,4 @@
-package problems.highest_common_factor
+package problems.greatest_common_divisor
 
 /*
  * Description:

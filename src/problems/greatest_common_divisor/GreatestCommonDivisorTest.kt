@@ -1,9 +1,9 @@
-package problems.highest_common_factor
+package problems.greatest_common_divisor
 
 import org.junit.Test
 import kotlin.test.assertEquals
 
-class HighestCommonFactorTest {
+class GreatestCommonDivisorTest {
 
     @Test
     fun test1() {
