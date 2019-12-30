@@ -6,7 +6,6 @@ package hackerrank.counting_valleys
  * Complexity: O(N)
 */
 
-
 fun countValleys(s: String): Int {
     var valleys = 0
     var currentLevel = 0
